@@ -34,15 +34,14 @@ nav {
 	background-color: var(--slight-pink);
 	position: fixed;
 	top: 0;
-	padding-top: 1.4rem;
-	padding-bottom: 1.4rem;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
 	left: 0;
 	right: 0;
 	z-index: 2;
 }
 .logo {
 	margin-left: 2%;
-	width: 20%;
 }
 
 .nav__links {
@@ -52,7 +51,7 @@ nav {
 }
 .nav__link {
 	margin-left: 5rem;
-	font-size: 19px;
+	font-size: 18px;
 	color: var(--not-dark);
 }
 a,
@@ -73,24 +72,22 @@ a:active {
 	position: absolute;
 	right: 150px;
 	cursor: pointer;
-	padding-top: 0.7rem;
 }
 .child {
-	width: 100%;
-	padding: 0.35rem;
+	width: 70px;
+	height: 70px;
 	border-radius: 50%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-color: var(--red);
+	background-color: red;
 	position: relative;
-	left: -50%;
+	right: 39px;
 	z-index: 1;
 }
 .grand-child {
 	width: 60px;
 	height: 60px;
-
 	border-radius: 50%;
 	display: flex;
 	justify-content: center;
@@ -101,7 +98,7 @@ a:active {
 	height: 50px;
 }
 .enroll {
-	background: var(--red);
+	background: red;
 	border-radius: 2rem;
 	color: white;
 	width: 10rem;
@@ -110,7 +107,6 @@ a:active {
 	justify-content: center;
 	align-items: center;
 	height: 45px;
-
 	position: absolute;
 }
 .and {
@@ -123,7 +119,7 @@ a:active {
 .flex1 {
 	display: flex;
 	justify-content: space-between;
-	margin-top: 19rem;
+	margin-top: 7rem;
 	padding: 0 6rem;
 	align-items: center;
 	padding-left: 2px;
@@ -434,14 +430,14 @@ img.wire5 {
 }
 .program_bg h3 {
 	margin-bottom: 1.5rem;
-	font-size: 22px;
+	font-size: 24px;
 	font-weight: 700;
 	color: var(--almost-dark);
 	line-height: 1.3;
 }
 .program_bg p {
-	font-size: 16px;
-	font-weight: 400;
+	font-size: 20px;
+	font-weight: 500;
 	line-height: 1.4;
 	color: var(--med-dark);
 }
@@ -575,7 +571,7 @@ img.wire7 {
 		width: 70%;
 	}
 	.lady {
-		width: 60%;
+		width: 100%;
 	}
 	.male {
 		display: none;
@@ -647,7 +643,11 @@ img.wire7 {
 		font-size: 24px;
 	}
 }
+
 @media (max-width: 1000px) {
+	body {
+		display: block;
+	}
 	.link {
 		display: none;
 	}
@@ -663,6 +663,7 @@ img.wire7 {
 	}
 	.don {
 		width: unset;
+		font-size: 30px;
 		text-align: center;
 	}
 	.p_right {
@@ -675,17 +676,26 @@ img.wire7 {
 	}
 	.flex_row p {
 		width: 100%;
-		font-size: 25px;
+		font-size: 50px;
 	}
 	.flex_row img {
 		display: none;
 	}
 	.relative3 p {
-		/*font-size: 18px;*/
+		font-size: 35px;
 	}
 	.wire3 {
 		width: 20%;
 		right: 50%;
+	}
+	.column1 {
+		padding: 0 5rem;
+	}
+	.program_bg p {
+		font-size: 40px;
+	}
+	.program_bg h3 {
+		font-size: 40px;
 	}
 	.grid,
 	.program {
@@ -704,21 +714,23 @@ img.wire7 {
 	}
 	.red_grid h2,
 	.white_grid h2 {
-		font-size: 45px;
+		font-size: 55px;
 	}
 	.red_grid p,
 	.white_grid p {
-		font-size: 30px;
+		font-size: 40px;
 		margin-bottom: 8rem;
 	}
 	.enroll_center a {
-		font-size: 16px;
+		font-size: 35px;
+		width: 40%;
 	}
 	.curve1 {
 		width: 40%;
 	}
-}
-@media (max-width: 800px) {
+	.p1 {
+		font-size: 22px;
+	}
 	h1.h1 {
 		width: unset;
 		text-align: center;
@@ -726,6 +738,7 @@ img.wire7 {
 	}
 	.p_right {
 		text-align: center;
+		font-size: 30px;
 	}
 	.lady {
 		width: 100%;
@@ -734,29 +747,12 @@ img.wire7 {
 		width: 100%;
 	}
 	p.p2 {
-		font-size: 16px;
+		font-size: 18px;
 	}
 	.wire {
 		width: 40%;
 	}
-}
-@media (width: 300px) {
-	.red_grid h1,
-	.white_grid h1 {
-		margin-top: 5rem;
-		font-size: 90px;
-		font-weight: 700;
-	}
-	.red_grid h2,
-	.white_grid h2 {
-		font-size: 80px;
-	}
-	.red_grid p,
-	.white_grid p {
-		font-size: 40px;
-		margin-bottom: 4rem;
-	}
-	.p_right {
-		text-align: center;
+	button.btn.btn1 {
+		font-size: xx-large;
 	}
 }
